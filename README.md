@@ -56,6 +56,7 @@ Ni hablar de los varios errores de los que aprendí a la hora de manejar las ima
 ### Useful resources
 
 - [Pseudoelementos: form input](https://www.digitalocean.com/community/tutorials/css-styling-form-input-validity) - Esto me sirvió para conocer los pseudoelementos relacionados, y como estilizarlos
+- [Transitioning Gradients](https://keithjgrant.com/posts/2017/07/transitioning-gradients/) - Aquí aprendí a hacer un efecto de transición aplicado a backgraunds con gradientes
 
 ## Author
 
