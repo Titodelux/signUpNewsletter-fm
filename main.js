@@ -9,7 +9,7 @@ if(screen.width > 700){
 }
 
 
-// Submit to success subscribing
+// Submit to success subscribing, change chape of main
 
 let main_card = document.querySelector('main')
 let section_default = document.querySelector('section')
@@ -40,4 +40,12 @@ email_form.addEventListener('submit', (e)=>{
     changeScreen(emailUser)
 })
 
-// Change chape of main
+// Email Error
+
+let submit_button = document.querySelector('.submitButton')
+
+submit_button.addEventListener('click', (e) => {
+    if (!email_form.checkValidity()) {
+        email_form.classList.add('invalid')
+    }
+})

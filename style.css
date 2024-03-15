@@ -65,7 +65,8 @@ li {
 }
 
 label {
-    display: block;
+    display: inline-block;
+    width: 49%;
     margin-bottom: 0.4rem;
     font-size: 0.7rem;
     font-weight: bold;
@@ -77,6 +78,20 @@ input {
     border-radius: 0.5rem;
     /* color: var(--light-color3); */
     cursor: pointer;
+}
+form.invalid input:required:invalid {
+    background-color: hsl(5, 100%, 95%);
+    border-color: hsl(5, 35%, 61%);
+    color: hsl(1, 66%, 69%);
+    font-weight: 600;
+}
+#beforeEmailError {
+    display: none;
+    color: hsl(1, 66%, 69%);
+    text-align: end;
+}
+form.invalid #beforeEmailError {
+    display: inline-block;
 }
 
 .submitButton {
